@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "/booking",
-			"_postman_id": "827bb15e-dac6-477e-bede-10106e225d4e",
+			"id": "827bb15e-dac6-477e-bede-10106e225d4e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "/booking/id",
-			"_postman_id": "42e54ac2-c254-4a37-8639-4b6881efb9df",
+			"id": "42e54ac2-c254-4a37-8639-4b6881efb9df",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -56,7 +56,7 @@
 					}
 				}
 			],
-			"_postman_id": "cc40121d-d5c9-4937-b2ec-18499b097792",
+			"id": "cc40121d-d5c9-4937-b2ec-18499b097792",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -70,10 +70,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"firstname\" : \"Ayse\",\n    \"lastname\" : \"Gul\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2023-07-01\",\n        \"checkout\" : \"2023-08-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}",
-					"options": {
-						"raw": {}
-					}
+					"raw": "{\n    \"firstname\" : \"Ayse\",\n    \"lastname\" : \"Nur\",\n    \"totalprice\" : 111,\n    \"depositpaid\" : true,\n    \"bookingdates\" : {\n        \"checkin\" : \"2023-07-01\",\n        \"checkout\" : \"2023-08-01\"\n    },\n    \"additionalneeds\" : \"Breakfast\"\n}"
 				},
 				"url": "{{BaseUrl}}"
 			},
@@ -81,7 +78,7 @@
 		},
 		{
 			"name": "/booking/id",
-			"_postman_id": "9ff27fd9-a8e4-4b7d-a1a3-2e8421c9b9c1",
+			"id": "9ff27fd9-a8e4-4b7d-a1a3-2e8421c9b9c1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -110,7 +107,7 @@
 		},
 		{
 			"name": "/booking/id",
-			"_postman_id": "f50f6cd8-dee8-41b1-98d6-3eb4781dc726",
+			"id": "f50f6cd8-dee8-41b1-98d6-3eb4781dc726",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -139,7 +136,7 @@
 		},
 		{
 			"name": "/booking/id",
-			"_postman_id": "f98596dc-d3f3-4863-bf1b-3a8291d1c7a5",
+			"id": "f98596dc-d3f3-4863-bf1b-3a8291d1c7a5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
